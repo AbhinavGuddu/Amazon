@@ -1,0 +1,20 @@
+.AdevertisementOne_main{
+  height: 380px;
+  width: 305px;
+  background: white;
+  margin: 10px;
+}
+.AdevertisementOne_header{
+  font-size: 21px;
+  line-height: 27px;
+  font-weight: bold;
+  padding: 15px;
+}
+.AdevertisementOne_body{
+padding: 12px;
+}
+.AdevertisementOne_footer{
+ padding-left: 10px;
+ margin-top:8px ;
+ /* color: red; */
+}

@@ -1,0 +1,210 @@
+.navbar_component{
+    width: 100%;
+    height: 80px;
+    background-color: #131A22;
+    display: flex;
+    cursor: pointer;
+    font-family: Arial,sans-serif;
+}
+.navbar_logo{
+    background:url('https://ik.imagekit.io/Amazons/amazon-image/amazon-image/sprite_350x.png?ik-sdk-version=javascript-1.4.3&updatedAt=1668608864266')no-repeat -9px -50px;
+	width: 100px;
+	height: 30px;
+    margin: 18px;
+    margin-left: 5px;
+    color: #fff;
+    /* font-weight: 500; */
+    /* align-items: center; */
+}
+.in_Text{
+    margin-top:21px;
+    margin-left: -20px;
+    color: #fff;
+    font-weight: 500;   
+}
+.navbar_location{
+    color:#fff;
+    font-weight: bold;
+     /* margin:5px; */
+}
+.navbar_locator{
+    display: flex;
+    margin: 28px 20px;
+    /* font-size: 14px; */
+}
+.navbar_locatorImage
+{ 
+    background:url('https://ik.imagekit.io/Amazons/amazon-image/amazon-image/sprite_350x.png?ik-sdk-version=javascript-1.4.3&updatedAt=1668608864266')no-repeat -70px -378px;
+	width: 16px;
+	height: 18px;
+    color:#ffff;
+}  
+.deliver_Text{
+    color: #e6e5e5;
+    margin-top:-10px;
+    margin-left:5px;
+    font-size: 12px;
+
+}
+    /* align-items: center; */ 
+    .navbar_searchcomponent{
+        display:flex;
+        margin-left: 40px;
+    }
+.navbar__searchBox{
+ width: 550px;
+ height: 38px;
+ margin-top: 8px;
+ font-size: 15px;
+ font-family: inherit;
+ color: #111;
+}
+/* .navbar_searchBox:hover{
+    border: 1px solid #f5a339;   
+} */
+.navbar__seaarchBoxdiv{
+    background-color: #FEBE68;
+    height: 44px;
+    width: 48px;
+    border-radius: 0px 5px 5px 0px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+/* .nav__dropdown.navbar_searchBoxdiv:active{ */
+    /* background-color: #f5a339; */
+
+.navbar__searchIcon{
+    background: url('https://ik.imagekit.io/Amazons/amazon-image/amazon-image/sprite_350x.png?ik-sdk-version=javascript-1.4.3&updatedAt=1668608864266') no-repeat -9px -289px;
+	width: 23px;
+	height: 23px;
+     margin: 12px;
+    
+}
+.nav__dropdown {
+    width: 100%;
+    height: 44px;
+    margin-top: 8px;
+    background-color: #e6e5e5;
+    border-radius: 5px 0px 0px 5px;
+    text-align-last: center;
+}
+.navbar__signin{
+    width: 120px;
+    margin-top: 13px;
+    margin-left: 45px;
+}
+.navbar__returns {
+    width: 80px;
+    margin-top:13px;
+    margin:10px
+}
+.navbar__cart {
+    display:flex;
+    margin-top: 15px;
+    margin-left: -10px;
+}
+.navbar_text {
+    color: white;
+}
+.cart__image {
+    background: url('https://ik.imagekit.io/Amazons/amazon-image/amazon-image/sprite_350x.png?ik-sdk-version=javascript-1.4.3&updatedAt=1668608864266')no-repeat -217px -336px;
+	width: 43px;
+	height: 30px;
+}
+/* .Download__image{
+    background: url('https://ik.imagekit.io/Amazons/amazon-image/amazon-image/amazon-app-logo-6196.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1669448981579') no-repeat 0 0;
+	width: 100px;
+	height: 256px;
+    display: flex;
+  flex-direction: row-reverse;
+} */
+
+.navbar_text_cart {
+    margin-top: 12px;
+    font-weight: bold;
+    position: relative;
+    right:1em;
+    text-decoration: none !important;
+}
+.navbar_text navbar__cart{
+    text-decoration: none !important;
+}
+.cart__item {
+    font-weight: bold;
+    position:relative;
+    right:1.5em;
+    top: 0.1em; 
+    font-size:1em;
+    /* margin-right:2em; */
+    padding-right: 0.01em;
+    text-align: center;
+    top: 0.01em;
+    color: #F08805;
+}
+.navbar__footer {
+    width: 100%;
+    height: 40px;
+    background-color: #22303E;
+    color: white;
+    display: flex;
+    font-family: inherit;
+  
+    
+}
+.navbar__footer_text {
+    float:right;
+    width: fit-content;
+    padding-top: 5px;
+    margin: 5px 10px 5px 10px;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; white-space: nowrap; 
+     font-weight:bold; 
+     text-align: center;
+}
+.navbar__footer_text:hover{
+    display: inline; /* the default for span */
+    margin: 5px 10px 5px 10px;
+    border: 1px solid #fff;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right:5px ;
+    text-align: center;
+    align-items: center;
+    border-radius: 2px;
+    white-space: nowrap;
+}
+.Download__image2{
+    background: url('https://ik.imagekit.io/Amazons/amazon-image/amazon-image/download.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1669435957011')	no-repeat 0 0;
+	width:200px;
+	height: 26px;
+    /* margin-right:2px; */
+    float: right;
+    border-radius: 2px;
+    padding-top: 8px;
+} 
+.Download__imageText{
+ /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+ text-align: center;
+ align-items: center;
+ padding-left: 52px;
+ /* margin-right:-535px; */
+ float:right;
+ padding-top: 5px;
+}
+.Download__image2:hover{
+    display: inline;
+    width:200px;
+    border: 1px solid #fff;
+    text-align: center;
+    align-items: center;
+    border-radius: 2px;
+}
+.Download__imageText:hover{
+    display: inline;
+    border: 1px solid #fff;
+    text-align: center;
+    align-items: center;
+    border-radius: 2px;
+    width: auto;
+
+}

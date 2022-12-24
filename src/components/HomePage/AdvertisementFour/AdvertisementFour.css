@@ -1,0 +1,27 @@
+.AdevertisementFour_main{
+  height: 380px;
+  width: 335px;
+    background: white;
+    margin: 10px;
+  }
+  .AdevertisementFour_header{
+    font-size: 21px;
+    line-height: 27px;
+    font-weight: bold;
+    padding: 15px;
+  }
+  .AdevertisementFour_bodyImage{
+  display: flex;
+  flex-wrap: wrap;
+  }
+  .ad_fourImagon{
+    width: 130px;
+    height: 105px;
+    margin: 9px;
+    padding-left: 10px;
+  }
+  .AdevertisementFour_footer{
+    padding-left: 15px;
+    margin-top:12px ;
+    /* color: red; */
+   }
